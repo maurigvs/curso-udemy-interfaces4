@@ -1,2 +1,8 @@
-package application.services.interfaces;public interface OnlinePaymentService {
+package application.services.interfaces;
+
+public interface OnlinePaymentService {
+
+    double paymentFee(double amount);
+    double interest(double amount, int months);
+
 }
