@@ -1,8 +1,7 @@
 import application.entities.Contract;
 import application.entities.Installment;
 import application.services.ContractService;
-import application.services.PaypalService;
-import application.services.interfaces.VisaService;
+import application.services.VisaService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

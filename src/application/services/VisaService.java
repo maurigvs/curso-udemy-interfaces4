@@ -1,4 +1,6 @@
-package application.services.interfaces;
+package application.services;
+
+import application.services.interfaces.OnlinePaymentService;
 
 public class VisaService implements OnlinePaymentService {
 
